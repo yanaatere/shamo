@@ -1,6 +1,6 @@
 # shamo
 
-A new Flutter project.
+A new Flutter project For Building E-Commerce And Chat Apps using Laraver as a backend
 
 ## Getting Started
 
