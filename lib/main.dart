@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,14 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Image.asset('assets/button_add.png'),
+      body: Center(
+        child: Text(
+          'Halo Semuanya',
+          style: priceTextStyle.copyWith(
+            fontSize: 30
+          ),
+        ),
+      ),
     );
   }
 }
