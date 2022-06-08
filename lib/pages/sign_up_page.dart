@@ -209,7 +209,7 @@ class SignUpPage extends StatelessWidget {
       );
     }
 
-    Widget signInButton() {
+    Widget signUpButton() {
       return Container(
         height: 50,
         width: double.infinity,
@@ -222,7 +222,7 @@ class SignUpPage extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
             ),
           ),
-          child: Text('Sign In',
+          child: Text('Sign Up',
               style:
                   primaryTextStyle.copyWith(fontSize: 16, fontWeight: medium)),
         ),
@@ -269,7 +269,7 @@ class SignUpPage extends StatelessWidget {
               usernameInput(),
               emailInput(),
               passwordInput(),
-              signInButton(),
+              signUpButton(),
               Spacer(),
               footer()
             ],
