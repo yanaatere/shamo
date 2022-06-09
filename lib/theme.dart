@@ -15,6 +15,9 @@ Color primaryTextColor = Color(0xffE1E1E1);
 Color secondaryTextColor = Color(0xff999999);
 Color subtitleColor = Color(0xff504F5E);
 
+Color btnNotClickedColor = Color(0xff808191);
+
+
 TextStyle primaryTextStyle = GoogleFonts.poppins(
   color: primaryTextColor
 );
