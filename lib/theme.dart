@@ -14,6 +14,7 @@ Color backgroundColor4 = Color(0xff252836);
 Color primaryTextColor = Color(0xffE1E1E1);
 Color secondaryTextColor = Color(0xff999999);
 Color subtitleColor = Color(0xff504F5E);
+Color transparantColor = Colors.transparent;
 
 Color btnNotClickedColor = Color(0xff808191);
 

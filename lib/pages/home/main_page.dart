@@ -24,21 +24,22 @@ class _MainPageState extends State<MainPage> {
     }
 
     Widget body() {
+      print('Index Ke ' + currentIndex.toString());
       switch (currentIndex) {
         case 0:
-          return Homepage();
+          return const Homepage();
           break;
         case 1:
-          return Chatpage();
+          return const Chatpage();
           break;
         case 2:
-          return Whistlistpage();
+          return const Whistlistpage();
           break;
         case 3:
-          return Profilepage();
+          return const Profilepage();
           break;
         default:
-          return Homepage();
+          return const Homepage();
       }
     }
 
@@ -111,7 +112,6 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: backgroundColor1,
         floatingActionButton: cardButton(),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-        floatingActionButtonAnimator: FloatingActionButtonAnimator.scaling,
         bottomNavigationBar: customButtonNav(),
         body: body());
   }
