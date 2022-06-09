@@ -15,35 +15,25 @@ Color primaryTextColor = Color(0xffE1E1E1);
 Color secondaryTextColor = Color(0xff999999);
 Color subtitleColor = Color(0xff504F5E);
 Color transparantColor = Colors.transparent;
-
+Color backgroundProductColor = Color(0xffFFFFFF);
+Color blackColor = Color(0xff2E2E2E);
 Color btnNotClickedColor = Color(0xff808191);
+Color backgroundShoesColor = Color(0xffECEDEF);
 
+TextStyle primaryTextStyle = GoogleFonts.poppins(color: primaryTextColor);
 
-TextStyle primaryTextStyle = GoogleFonts.poppins(
-  color: primaryTextColor
-);
+TextStyle secondaryTextStyle = GoogleFonts.poppins(color: secondaryTextColor);
 
-TextStyle secondaryTextStyle = GoogleFonts.poppins(
-    color: secondaryTextColor
-);
+TextStyle priceTextStyle = GoogleFonts.poppins(color: priceColor);
 
-TextStyle priceTextStyle = GoogleFonts.poppins(
-    color: priceColor
-);
+TextStyle subtitleTextStyle = GoogleFonts.poppins(color: subtitleColor);
 
-TextStyle subtitleTextStyle = GoogleFonts.poppins(
-    color: subtitleColor
-);
+TextStyle purpleTextStyle = GoogleFonts.poppins(color: primaryColor);
 
-TextStyle purpleTextStyle = GoogleFonts.poppins(
-    color: primaryColor
-);
+TextStyle blackTextStyle = GoogleFonts.poppins(color: blackColor);
 
 FontWeight light = FontWeight.w300;
 FontWeight reguler = FontWeight.w400;
 FontWeight medium = FontWeight.w500;
 FontWeight semiBold = FontWeight.w600;
 FontWeight bold = FontWeight.w700;
-
-
-
