@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:shamo/theme.dart';
 
 class DetailChatPage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
-    Widget header() {
+    PreferredSizeWidget header() {
       return PreferredSize(
         child: AppBar(
           backgroundColor: backgroundColor1,
@@ -36,13 +37,13 @@ class DetailChatPage extends StatelessWidget {
             ],
           ),
         ),
-        preferredSize: Size.fromHeight(90),
+        preferredSize: Size.fromHeight(60),
       );
     }
 
     return Scaffold(
       backgroundColor: backgroundColor3,
-      bottomNavigationBar: header(),
+      appBar: header(),
     );
   }
 }
