@@ -30,16 +30,16 @@ class _MainPageState extends State<MainPage> {
           return const Homepage();
           break;
         case 1:
-          return const Chatpage();
+          return Chatpage();
           break;
         case 2:
-          return const Whistlistpage();
+          return Whistlistpage();
           break;
         case 3:
-          return const Profilepage();
+          return Profilepage();
           break;
         default:
-          return const Homepage();
+          return Homepage();
       }
     }
 
