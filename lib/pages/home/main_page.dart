@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shamo/pages/home/chat_page.dart';
 import 'package:shamo/pages/home/home_page.dart';
 import 'package:shamo/pages/home/profile_page.dart';
-import 'package:shamo/pages/home/wishtlist_page.dart';
+import 'package:shamo/pages/home/wishlist_page.dart';
 import 'package:shamo/theme.dart';
 
 class MainPage extends StatefulWidget {
