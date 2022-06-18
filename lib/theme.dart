@@ -20,6 +20,7 @@ Color backgroundProductColor = Color(0xffFFFFFF);
 Color blackColor = Color(0xff2E2E2E);
 Color btnNotClickedColor = Color(0xff808191);
 Color backgroundShoesColor = Color(0xffECEDEF);
+Color backgroundColor6 = Color(0xffECEDEF);
 
 
 TextStyle primaryTextStyle = GoogleFonts.poppins(color: primaryTextColor);
